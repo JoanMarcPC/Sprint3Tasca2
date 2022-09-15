@@ -18,4 +18,4 @@ Nivell 2 Callback
 
 Nivell 3 Dependency Injection
 
--https://java-design-patterns.com/patterns/dependency-injection/#:~:text=Dependency%20Injection%20is%20a%20software,part%20of%20the%20client%27s%20state.
+- https://java-design-patterns.com/patterns/dependency-injection/#:~:text=Dependency%20Injection%20is%20a%20software,part%20of%20the%20client%27s%20state.

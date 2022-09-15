@@ -20,4 +20,4 @@ Nivell 3 Dependency Injection
 
 - https://java-design-patterns.com/patterns/dependency-injection/#:~:text=Dependency%20Injection%20is%20a%20software,part%20of%20the%20client%27s%20state.
 - https://www.codejava.net/coding/what-is-dependency-injection-with-java-code-example
-- https://www.youtube.com/watch?v=eQ90v7HQT-Q amigoscode: dependency injection permet fer primer test isolated i despres integration tests
+- https://www.youtube.com/watch?v=eQ90v7HQT-Q amigoscode: dependency injection permet fer primer test isolated i despres integration tests. Permite mokear (imitar) dependencias.

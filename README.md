@@ -15,3 +15,7 @@ Nivell 2 Callback
 - https://roytuts.com/callback-method-example-in-java/
 - https://www.geeksforgeeks.org/callback-using-interfaces-java/
 - https://www.tutorialspoint.com/Callback-using-Interfaces-in-Java  principalment aquest!
+
+Nivell 3 Dependency Injection
+
+-https://java-design-patterns.com/patterns/dependency-injection/#:~:text=Dependency%20Injection%20is%20a%20software,part%20of%20the%20client%27s%20state.

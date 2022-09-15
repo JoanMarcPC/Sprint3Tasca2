@@ -14,3 +14,4 @@ Nivell 2 Callback
 - https://java-design-patterns.com/patterns/callback/#:~:text=Callback%20is%20a%20method%20passed,be%20called%20at%20defined%20moment.&text=In%20computer%20programming%2C%20a%20callback,argument%20at%20a%20given%20time.
 - https://roytuts.com/callback-method-example-in-java/
 - https://www.geeksforgeeks.org/callback-using-interfaces-java/
+- https://www.tutorialspoint.com/Callback-using-Interfaces-in-Java  principalment aquest!

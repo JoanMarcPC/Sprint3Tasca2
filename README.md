@@ -1,6 +1,9 @@
 # Sprint3Tasca2
 Recursos utilitzats:
 
+Gradle:
+- https://jugnicaragua.org/primeros-pasos-con-gradle/
+
 Nivell 1 Observer
 
 - https://www.baeldung.com/java-observer-pattern principalment aquest!

@@ -16,7 +16,8 @@ public class Main {
 		agencies.add(new AgenciaBorsa("Invierte Y Gana"));
 		agencies.add(new AgenciaBorsa("AgenciaRandom"));
 		agencies.add(new AgenciaBorsa("AgenciaRandom2"));
-		AgentBorsa agent = new AgentBorsa("Ibex35", (float) 2323.45, agencies);
+		AgentBorsa agent = new AgentBorsa("Ibex35", 2323.45, agencies);
+		AgentBorsa agent2 = new AgentBorsa("DOW JONES",  156582.654, agencies);
 		
 		// afegir observers
 		agent.attach(new AgenciaBorsa("Invierte Y Gana2"));
@@ -26,7 +27,8 @@ public class Main {
 		System.out.println(agent.getAgencies().toString());
 		
 		// notificacions de canvis als observers
-		agent.setPuntuacioBorsa((float)4458.55);
+		agent.setPuntuacioBorsa(4458.55);
+		agent2.setPuntuacioBorsa(14254.365);
 		
 
 	}

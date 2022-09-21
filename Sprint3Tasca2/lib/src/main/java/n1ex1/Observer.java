@@ -1,5 +1,5 @@
 package n1ex1;
 
 public interface Observer {
-	public void update(String nom,float puntuacioAntiga, float puntuacioActual);
+	public void update(String nom,double puntuacioAntiga, double puntuacioActual);
 }

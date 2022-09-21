@@ -5,6 +5,6 @@ public interface Observable {
 
 	public void detach(Observer o);
 
-	public void notifyChange(float novaPuntuacio);
+	public void notifyChange(double novaPuntuacio);
 
 }

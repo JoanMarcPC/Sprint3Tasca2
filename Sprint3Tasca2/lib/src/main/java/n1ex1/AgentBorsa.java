@@ -4,10 +4,10 @@ import java.util.ArrayList;
 
 public class AgentBorsa implements Observable {
 	private String nom;
-	private float puntuacioBorsa = 0;
+	private double puntuacioBorsa = 0;
 	private ArrayList<Observer> agencies;
-	
-	public AgentBorsa(String nom, float puntuacioBorsa, ArrayList<Observer> agencies) {
+
+	public AgentBorsa(String nom, double puntuacioBorsa, ArrayList<Observer> agencies) {
 		super();
 		this.nom = nom;
 		this.puntuacioBorsa = puntuacioBorsa;
@@ -29,7 +29,7 @@ public class AgentBorsa implements Observable {
 	}
 
 	@Override
-	public void notifyChange(float novaPuntuacio) {
+	public void notifyChange(double novaPuntuacio) {
 		for (int i = 0; i < agencies.size(); i++) {
 			agencies.get(i).update(this.nom, this.puntuacioBorsa, novaPuntuacio);
 		}
@@ -45,14 +45,15 @@ public class AgentBorsa implements Observable {
 		this.nom = nom;
 	}
 
-	public float getPuntuacioBorsa() {
+	public double getPuntuacioBorsa() {
 		return puntuacioBorsa;
 	}
 
-	public void setPuntuacioBorsa(float puntuacioBorsa) {
+	public void setPuntuacioBorsa(double puntuacioBorsa) {
 
-		this.puntuacioBorsa = puntuacioBorsa;
 		this.notifyChange(puntuacioBorsa);
+		this.puntuacioBorsa = puntuacioBorsa;
+
 	}
 
 	public ArrayList<Observer> getAgencies() {

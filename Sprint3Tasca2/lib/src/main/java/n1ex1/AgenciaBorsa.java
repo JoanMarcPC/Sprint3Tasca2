@@ -20,9 +20,9 @@ public class AgenciaBorsa implements Observer {
 	}
 
 	@Override
-	public void update(String nom, float puntuacioAntiga, float puntuacioActual) {
-		System.out.println(" Agencia de Borsa " + this.nom + "Notificació:\nL'Agent de Borsa: " + nom
-				+ " ha canviat la seva puntuació de: " + puntuacioAntiga + "punts a: " + puntuacioActual + " punts.");
+	public void update(String nom, double puntuacioAntiga, double puntuacioActual) {
+		System.out.println("Agencia de Borsa: " + this.nom + ". Notificacio:\nL'Agent de Borsa: " + nom
+				+ " canviara la seva puntuacio de: " + puntuacioAntiga + " punts a: " + puntuacioActual + " punts.\n");
 		// TODO Auto-generated method stub
 
 	}
